@@ -1,0 +1,9 @@
+Makefile
+Makefile.in
+.DS_Store
+*.o
+*.la
+*.lo
+
+/.deps
+/.libs

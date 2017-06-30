@@ -2,18 +2,18 @@
 Basic template repository for quickly spinning up c++ projects on linux with autotools.
 
 
-##Building the template:
+## Building the template:
 ```
 $ sh ./autogen.sh
 $ ./configure
 $ make
 ```
 
-##Modifying the template:
+## Modifying the template:
  1. Modify code in `src/`
  2. Modify the source files in `src/makefile.am`
 
-##Adding Libraries:
+## Adding Libraries:
  1. Add library folder to `lib/`
  2. Add library code to folder
  3. Create a `Makefile.am` with contents mocking `lib/xxx/Makefile.am` in the library folder
